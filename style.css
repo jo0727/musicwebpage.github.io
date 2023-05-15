@@ -10,8 +10,11 @@
     background-position: center;
     position: relative;
   }
-  
+  .nav{
+    border-top: 10px;
+  }
   .nav li {
+
     float: right;
     list-style: none;
   }
