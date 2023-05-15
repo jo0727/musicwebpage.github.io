@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<ul class="nav">
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">ARTISTS</a></li>
+<li><a href="#">MUSIC</a></li>
+<li><a href="#">HOME</a></li>
+</ul>
+</div>
+<div class="content">
+<div class="left-col">
+<h1>CLOSE YOUR EYES</h1>
+<p>Listen to your favorite music.</p>
+</div>
+<div class="right-col">
+<p>PLAY/PAUSE MUSIC</p>
+
+
+<img id="icon" src="./mus/play-button-4210.png" alt="play/pause" />
+
+
+<audio id="audio" src="./mus/Nilaavil Ellame  Film Aanandam  Music by Sachin Warrier  New Malayalam Songs.mp3"></audio>
+
+</div>
+</div>
+
+<script>
+
+var icon = document.getElementById("icon");
+var audio = document.getElementById("audio");
+
+
+var playing = true;
+
+
+icon.onclick = function () {
+
+if (playing) {
+
+audio.pause();
+playing = false;
+
+
+icon.src ="./mus/play-button-4210.png";
+} else {
+
+audio.play();
+playing = true;
+
+
+icon.src =
+"./mus/189639.png";
+}
+};
+</script>
+</body>
+</html>
