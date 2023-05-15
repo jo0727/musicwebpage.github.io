@@ -23,7 +23,7 @@
   .nav a {
     list-style: none;
     border-radius: 15px;
-    
+    font: verdana;
     font-size: 1rem;
     font-weight: 550;
     display: block;
