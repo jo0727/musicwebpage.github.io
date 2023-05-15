@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
   }
   
   .container {
@@ -36,7 +37,7 @@
   }
   .nav a:hover{
     
-    background-color: #808080;
+    background-color: #b1b0b0;
   }
   
   .content {
